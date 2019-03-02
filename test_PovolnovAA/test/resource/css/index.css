@@ -1,0 +1,23 @@
+#quest, form input[type="submit"], .btnBackToForm{transition:background.5s;-webkit-transition:background .5s;-o-transition:background .5s;-moz-transition:background .5s}
+#quest{position:absolute;right:20px;top:20px;background:white;color:#3498db;border:2px solid #3498db;border-radius:20px;width:20px;height:20px;padding:5px;text-align:center;font-weight:bold;cursor:pointer}
+#quest:hover{background:#3498db;color:white}
+.quest{background:#2c3e50;border-radius:10px;color:white;padding:15px;position:absolute;left:-50%;width:40%;z-index:5;transition:left.5s;-webkit-transition:left .5s;-o-transition:left .5s;-moz-transition:left .5s}
+.questOpen{left:15%}
+.quest ul li{list-style:none;margin:0 0 10px 0}
+
+
+form{position:relative}
+form h1{margin:0 0 10px 0}
+form input, .btnBackToForm{padding:15px 20px;font-size:14px;border:none;border-radius:5px;background:#ecf0f1;outline:none}
+form label{color:#7f8c8d;margin:5px 0 0 0;font-size:12px}
+#captcha{height:100px;width:300px;margin:10px 0 0 0}
+#reCaptcha{color:#7f8c8d;text-decoration:underline;text-decoration-style:dashed;cursor:pointer}
+form input[type="submit"], .btnBackToForm{flex-basis:100%;cursor:pointer;margin:10px 20px 0 20px;font-weight:bold;text-align:center}
+form input[type="submit"]:hover{background:#44bd32;color:white}
+.btnBackToForm:hover{background:#3498db;color:white}
+.twoFlex{display:flex}
+.msg{position:fixed;bottom:10px;width:80%;margin:0 auto;z-index:3}
+.msg li{color:white;text-align:center;border-radius:5px;list-style:none;padding:15px 5px;margin:10px 0 0 0}
+.msg li[data-type="ok"]{background:#44bd32}
+.msg li[data-type="error"]{background:#e84118}
+#loader{position:fixed;z-index:2;width:95%;height:95%;padding:5% 0 0 5%;background:white}

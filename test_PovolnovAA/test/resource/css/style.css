@@ -1,0 +1,4 @@
+html,body{width:100%;height:100%}
+*{margin:0;padding:0;font-family:Helvetica}
+main{display:flex;height:100%;align-items:center;justify-content:center;background:#3498db}
+.wrp{background:white;width:500px;display:flex;flex-direction:column;padding:15px;border-radius:10px}
